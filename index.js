@@ -26,5 +26,5 @@ if (operation === "+") {
 
 // Display the result
 if (result !== "undefined") {
-  alert(`The result of ${firstNumber} ${operation} ${secondNumber} is ${result}`);
+  alert("The result of " + firstNumber + " " + operation + " " + secondNumber + " is " + result);
 }
