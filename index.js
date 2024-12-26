@@ -1,6 +1,6 @@
 //  Input Prompts
-const firstNumber = parseFloat(prompt("Enter the first number:"));
-const secondNumber = parseFloat(prompt("Enter the second number:"));
+const firstNumber = Number(prompt("Enter the first number:"));
+const secondNumber = Number(prompt("Enter the second number:"));
 const operation = prompt("Enter the operation (+, -, *, /):");
 
 let result;
